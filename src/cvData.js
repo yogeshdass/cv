@@ -18,7 +18,7 @@ export const cvData = {
       highlights: [
         "Managing and mentoring the Platform team, driving technical strategy and delivery",
         "Integrating Wiz CNAPP for cloud security posture management (CSPM), KSPM, vulnerability detection, and continuous compliance",
-        "Translating compliance and regulatory requirements into actionable cloud security controls and technical remediation",
+        "Translating compliance and regulatory requirements into cloud security controls using a Security Requirements Traceability Matrix (SRTM)",
         "Implementing SSDLC and software supply chain security: threat modeling, SAST, SCA, SBOM, artifact signing, EDR, and malware scanning",
         "Enforcing Zero-Trust security model using SSO, OIDC federation, RBAC, PBAC, ABAC, TBAC, and Just-In-Time (JIT) access controls",
         "Consulting on cloud migration and cloud security strategies across global infrastructure",
@@ -114,6 +114,7 @@ export const cvData = {
   skills: [
     { category: "Cloud Infrastructure & Virtualization", items: "AWS, KVM, Bare metal" },
     { category: "Security & Compliance", items: "NIS-2, ISO 27001, BSI IT-Grundschutz, CIS Benchmarks, PCI DSS, NIST 800-53 R5" },
+    { category: "Architecture & Documentation", items: "C4 Model, arc42, Architecture Decision Records (ADRs)" },
     {
       category: "Security & DevSecOps Tools",
       items: [
