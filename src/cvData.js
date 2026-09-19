@@ -1,0 +1,158 @@
+export const cvData = {
+  name: "Yogesh Kumar",
+  title: "Cloud Solutions Architect (Cloud Security)",
+  summary:
+    "11+ years of experience specializing in Cloud Security, DevSecOps, and Platform Engineering. I design secure, compliant cloud platforms, lead technical teams, and drive cloud migrations and event-driven architectures.",
+  location: "Hamburg, Germany",
+  phone: "+49-15231321170",
+  email: "dassyogesh@gmail.com",
+  linkedin: "https://www.linkedin.com/in/yogeshdass/",
+
+  experience: [
+    {
+      position: "Cloud Architect / Technical Manager",
+      company: "Kuehne + Nagel International AG.",
+      startDate: "1/Feb/2023",
+      endDate: "Present",
+      location: "Hamburg, Germany",
+      highlights: [
+        "Managing and mentoring the Platform team, driving technical strategy and delivery",
+        "Integrating Wiz CNAPP for cloud security posture management (CSPM), KSPM, vulnerability detection, and continuous compliance",
+        "Translating compliance and regulatory requirements into actionable cloud security controls and technical remediation",
+        "Implementing SSDLC and software supply chain security: threat modeling, SAST, SCA, SBOM, artifact signing, EDR, and malware scanning",
+        "Enforcing Zero-Trust security model using SSO, OIDC federation, RBAC, PBAC, ABAC, TBAC, and Just-In-Time (JIT) access controls",
+        "Consulting on cloud migration and cloud security strategies across global infrastructure",
+        "Architecting and governing secure AWS application ecosystems (APIs and data pipelines)",
+        "Driving Infrastructure as Code (IaC) adoption using Terraform, AWS CDK, and Saltstack, and developing serverless applications, APIs, and CLI tools",
+        "Delivering workshops and trainings on Cloud and DevOps topics",
+      ],
+    },
+    {
+      position: "AWS Engineer",
+      company: "Exporo AG.",
+      startDate: "20/Sep/2022",
+      endDate: "31/Jan/2023",
+      location: "Hamburg, Germany",
+      highlights: [
+        "Architected and developed event-driven applications using Solace PubSub+, EventBridge, and Lambda",
+        "Introduced version control and release management processes",
+        "Enforced cloud security best practices across infrastructure and applications",
+      ],
+    },
+    {
+      position: "Senior Systems Engineer",
+      company: "EPAM Systems Kft.",
+      startDate: "06/Jan/2021",
+      endDate: "02/Sep/2022",
+      location: "Budapest, Hungary",
+      highlights: [
+        "Architected and developed event-driven applications using EventBridge, Lambda, Step Functions, SQS, S3, and Glue",
+        "Developed HL7 FHIR-compliant REST API in Golang using API Gateway and Lambda",
+        "Implemented Infrastructure as Code using AWS CDK in Python",
+        "Implemented CI/CD pipelines using Jenkins",
+        "Led cloud migration from on-premises to Kubernetes and AWS",
+      ],
+    },
+    {
+      position: "Senior DevOps Engineer",
+      company: "One97 Communications Ltd. (Paytm)",
+      startDate: "30/Sep/2019",
+      endDate: "22/Dec/2020",
+      location: "Noida, India",
+      highlights: [
+        "Led cloud migration from on-premises servers to AWS and Kubernetes",
+        "Enforced cloud security policies and compliance standards",
+        "Implemented CI/CD pipelines using Groovy and Jenkins",
+        "Designed and implemented auto-failover using MySQL Orchestrator",
+        "Developed applications and automation tools in Python and Node.js",
+        "Secured Kafka with encryption, authentication, and least-privilege access controls",
+      ],
+    },
+    {
+      position: "Senior DevOps Engineer",
+      company: "Impressico Business Solutions Pvt. Ltd.",
+      startDate: "10/07/2017",
+      endDate: "27/Sep/2019",
+      location: "Noida, India",
+      highlights: [
+        "Architected and governed cloud-native applications on AWS and Azure",
+        "Led cloud migration from on-premises to AWS and Azure",
+        "Containerized applications using EKS and ECS",
+        "Developed automation scripts and tools in Python, Java, and Groovy",
+        "Implemented IaC using Terraform and CI/CD pipelines across multiple projects",
+        "Led and mentored DevOps and NOC team members",
+      ],
+    },
+    {
+      position: "AWS Solution Architect",
+      company: "Auspice Transitos Pvt. Ltd.",
+      startDate: "16/Nov/2016",
+      endDate: "17/Jun/2017",
+      location: "Gurgaon, India",
+      highlights: [
+        "Led AWS cloud migration, designed and implemented target architecture",
+      ],
+    },
+    {
+      position: "Server Engineer",
+      company: "One Mobikwik Systems Pvt. Ltd.",
+      startDate: "06/Jul/2015",
+      endDate: "15/Nov/2016",
+      location: "Gurgaon, India",
+      highlights: [
+        "Automated server provisioning and maintenance using Ansible, implemented CI/CD pipelines",
+        "Led Compliance Audits and SOC team for Incident Response and InfoSec",
+        "Implemented SIEM using EFK stack for centralized security monitoring",
+        "Performed server hardening as per PCI DSS and CIS benchmarks",
+        "Managed AWS and Azure cloud infrastructure",
+        "Executed datacenter migration and implemented disaster recovery site",
+        "Containerised applications using Docker and implemented centralized log aggregation",
+      ],
+    },
+  ],
+
+  skills: [
+    { category: "Cloud Infrastructure & Virtualization", items: "AWS, KVM, Bare metal" },
+    { category: "Security & Compliance", items: "NIS-2, ISO 27001, BSI IT-Grundschutz, CIS Benchmarks, PCI DSS, NIST 800-53 R5" },
+    {
+      category: "Security & DevSecOps Tools",
+      items: [
+        { label: "IAM", value: "Keycloak, SSO, OIDC" },
+        { label: "CNAPP", value: "Wiz" },
+        { label: "SAST", value: "Checkov, CDK Nag" },
+        { label: "SCA / OSA", value: "Mend, Trivy" },
+        { label: "Supply Chain", value: "Sigstore/cosign, SLSA, dependency pinning" },
+        { label: "Threat Detection", value: "AWS Guard Duty" },
+      ],
+    },
+    { category: "Infrastructure as Code (IaC)", items: "AWS CDK, Terraform, CloudFormation, Docker, Ansible, Helm, Saltstack" },
+    { category: "Containerization & Orchestration", items: "AWS ECS, Kubernetes, AWS EKS" },
+    { category: "Programming Languages", items: "Typescript, Golang, Python" },
+    { category: "Observability Tools", items: "Grafana, Mimir, Loki, Alloy, Fluentd, Cloudwatch, Opensearch" },
+    { category: "CI/CD & GitOps", items: "Jenkins, Github Actions, Gitlab, Bitbucket, ArgoCD" },
+    { category: "Operating Systems", items: "Linux, MacOS" },
+  ],
+
+  certifications: [
+    { title: "AWS Certified Solutions Architect - Professional", detail: "(Validation: 12394d99d8784b7582b4d53c42a4587d)" },
+    { title: "Lucideus Certified Ethical Hacker", detail: "(Certificate ID: LCEH1/17072)" },
+    { title: "Red Hat Certified Engineer (RHCE)", detail: "— Certificate Number: 150-062-735" },
+    { title: "Red Hat Certified System Administrator (RHCSA)", detail: "— Certificate Number: 150-062-735" },
+  ],
+
+  languages: [
+    { language: "English", level: "Fluent" },
+    { language: "German", level: "Beginner (A1)" },
+    { language: "Russian", level: "Elementary" },
+  ],
+
+  education: [
+    {
+      degree: "AMIETE in Computer Science and Engineering",
+      institution: "Institution Of Electronics and Telecommunication Engineers (IETE)",
+      startDate: "Jan/2009",
+      endDate: "Feb/2013",
+      location: "New Delhi, India",
+    },
+  ],
+};
